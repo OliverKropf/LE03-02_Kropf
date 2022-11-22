@@ -8,7 +8,7 @@ namespace LE03_02_Kropf
         {
             Console.WriteLine("For now, you can only pay with 5/10 EUR note.\nHow much do you insert?");
             int payment = InputCoverage.IntRequest();
-            if(payment != 5 && payment != 10 ) 
+            if(payment != 5 && payment != 10) 
             {
                 Console.WriteLine("\nAs said before, this vending machine ONLY accepts 5/10 EUR notes!\nPayment failed..");
             }

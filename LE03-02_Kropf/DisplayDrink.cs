@@ -9,7 +9,7 @@ namespace LE03_02_Kropf
             Console.WriteLine("\nYou chose Nr. " + productNumber +
                               "\nName: " + chosenDrink.Name +
                               "\nDescription: " + chosenDrink.Description +
-                              "\nPrice: " + chosenDrink.Price + " EUR.\n");
+                              "\nPrice: " + chosenDrink.Price + " EUR.\n"); 
         }
     }
 }
